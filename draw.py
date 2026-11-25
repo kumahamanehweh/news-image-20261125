@@ -146,7 +146,7 @@ LEADS = [
     {
         "n": 3, "tag": "MARKETS · TARIFFS", "color": (183, 121, 31),
         "head": "Asia shares plunge as US tariff threat returns",
-        "body": ("Seoul dives 5.3%, Taipei 5.1%, Tokyo 2.9% as Washington "
+        "body": ("Taipei dives 8.2%, Seoul 4.7%, Tokyo 3.2% as Washington "
                  "readies tariff findings on China, the EU and 14 more "
                  "economies; the Nasdaq fell 1.5% on Tuesday."),
         "src": "Reuters", "art": "chart",
@@ -369,7 +369,7 @@ def art_chart(d, x, y, w, h):
         d.ellipse([px - 3, py - 3, px + 3, py + 3], fill=(185, 28, 28))
     d.text((x + 8, y + 3), "-8.2% TAIPEI", font=font("sans_b", 9),
            fill=(185, 28, 28))
-    d.text((x + 8, y + h - 26), "-5.3% SEOUL   -2.9% TOKYO",
+    d.text((x + 8, y + h - 26), "-4.7% SEOUL   -3.2% TOKYO",
            font=font("sans_b", 9), fill=INK)
 
 
